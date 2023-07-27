@@ -197,7 +197,7 @@ def reporter():
     if game_over:
         return
     for i in range(len(obstacles)):
-        print(f"obs{i} {obstacles[i].name}: {obstacles[i].actor.x}")
+        print(f"Obstacle{i} {obstacles[i].name}: {obstacles[i].actor.x}")
 
 
 def update_obstacles():
