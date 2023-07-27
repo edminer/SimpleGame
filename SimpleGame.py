@@ -15,7 +15,7 @@ class Obstacle():
 
 WIDTH  = 1200
 HEIGHT = 720
-OBSTACLE_OFFSET = 305
+OBSTACLE_OFFSET = 300
 game_over = False
 isJump = False
 jumpCount = 8
